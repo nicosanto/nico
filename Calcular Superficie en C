@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    float base, altura , superficie; //declaracion de variable
+    printf("Escriba la base: "); //sentencia de salida
+    scanf("%f", &base);//sentencia de entrada
+
+    printf("Escriba la altura: "); //sentencia de salida
+    scanf("%f", &altura);//sentencia de entrada
+
+    superficie = base * altura / 2.0;
+    printf("Base = %0.2f , altura = %0.2f  ,  superficie = %0.2f",base, altura, superficie);
+
+    getch ();
+    return 0;
+
+}
