@@ -2,7 +2,7 @@
 #include <conio.h>
 int main()
 {
-    float base, altura , superficie; //declaracion de variable
+    float base, altura , superficie; //declaracion de variablee
     printf("Escriba la base: "); //sentencia de salida
     scanf("%f", &base);//sentencia de entrada
 
